@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upload Successful</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; color: #333; }
+        .container { max-width: 600px; margin: 50px auto; padding: 20px; border: 1px solid #ddd; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        h1 { color: #28a745; }
+        a { color: #007bff; text-decoration: none; }
+        p { word-wrap: break-word; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Success!</h1>
+        <p>Your product "<strong>{{.ProductName}}</strong>" has been created and registered.</p>
+        <p>The image was uploaded to IPFS and can be viewed at the link below:</p>
+        <p><strong>IPFS Hash:</strong> {{.IpfsHash}}</p>
+        <a href="https://ipfs.io/ipfs/{{.IpfsHash}}" target="_blank">View Image on IPFS</a>
+    </div>
+</body>
+</html>
