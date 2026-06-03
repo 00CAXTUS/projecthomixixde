@@ -1,1 +1,1 @@
-// Project is submitted. Start next one soon
+// Project is submitted. Starting next project soon.
